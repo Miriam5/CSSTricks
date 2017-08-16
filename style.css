@@ -1,0 +1,103 @@
+body {
+	background-color: aliceBlue;
+}
+
+/*ul {
+	list-style: <list-style-type> || <list-style-position> || <list-style-image>;
+
+}*/
+
+.one {
+	list-style: square inside url(images/world.png);
+}
+
+.two {
+	list-style: square inside url(images/mermaid.png);
+}
+
+.three {
+	list-style: square inside url(images/dog.png);
+}
+
+
+/*
+list-style-type include:
+
+disc
+circle
+square
+decimal
+decimal-leading-zero
+lower-roman
+upper-roman
+lower-greek
+lower-latin
+upper-latin
+armenian
+georgian
+lower-alpha
+upper-alpha
+none
+
+list-style-position
+  two values: inside or outside 
+  inside is indented 
+
+ list-style-image
+ ul {
+    list-style-image: url(images/bullet.png);
+
+url(images/mermaid.png)}
+
+
+put at properties in html 
+ol start = "3"> will start numbering at 3.
+<ol reversed>
+
+This is how to do a list like: 
+;
+
+Author
+	Matt West
+Editors
+	Sara Shlaer
+	Ellie Scott
+	Debbye Butler
+	Nick Elliott
+
+
+These are <dl> definition lists; thikn of is as term <dt> and definition (dd)
+dt to left, dd indent next line 
+
+  <dl>
+    <dt>Author</dt>
+    <dd>Matt West</dd>
+    <dt>Editors</dt>
+    <dd>Sara Shlaer</dd>
+    <dd>Ellie Scott</dd>
+    <dd>Debbye Butler</dd>
+    <dd>Nick Elliott</dd>
+  </dl>
+
+
+
+list-style-image
+image part is buggy on IE, 
+A much better solution is to add a background image to the <li> elements on the list, adjusting the position of the background image accordingly, and setting it to no-repeat. This solution is explained through a series of steps at maxdesign.com, and works nicely in all browsers.
+
+HTML 5 ol = list 
+use <nav> to wrap a list used for navigation. 
+<ol> has two attributes reversed w boolean for ascend or desecend. 
+and start -- as above 
+
+Also: <figure> and <details>  they can hav childre with dt and dd tags
+
+browsers: add display: block; to <li> to make bullets or numbers disappear 
+
+use css reset if prblems emerge 
+this says avoid the image, and use background on the lis. 
+;to make custome bullets, because cross browser issues 
+
+Great examples: https://www.smashingmagazine.com/2009/12/styling-html-lists-with-css-techniques-and-resources/;
+
+*/
